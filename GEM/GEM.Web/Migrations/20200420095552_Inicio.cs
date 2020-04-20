@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace GEM.web.Migrations
+namespace GEM.Web.Migrations
 {
     public partial class Inicio : Migration
     {

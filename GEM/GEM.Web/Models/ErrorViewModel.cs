@@ -1,6 +1,6 @@
 using System;
 
-namespace GEM.web.Models
+namespace GEM.Web.Models
 {
     public class ErrorViewModel
     {

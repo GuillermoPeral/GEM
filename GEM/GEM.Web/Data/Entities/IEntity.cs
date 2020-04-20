@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GEM.web.Data.Entities
+namespace GEM.Web.Data.Entities
 {
-    public interface IEntity
+    interface IEntity
     {
-        int Id { get; set; }
+        int Id { get; set; } 
     }
 }
