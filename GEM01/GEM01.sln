@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEM.Web", "GEM.Web\GEM.Web.csproj", "{7BC36480-5C10-4525-B429-0DB9448FEBD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{AFA827A1-9AE0-4BC0-ADA1-5747919D9F89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{0565A2B8-63CA-42E0-81A0-152B7F84AE49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BC36480-5C10-4525-B429-0DB9448FEBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC36480-5C10-4525-B429-0DB9448FEBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC36480-5C10-4525-B429-0DB9448FEBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC36480-5C10-4525-B429-0DB9448FEBD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7BC36480-5C10-4525-B429-0DB9448FEBD2} = {AFA827A1-9AE0-4BC0-ADA1-5747919D9F89}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {830F238F-2EDF-46D3-8E25-F9CEF707EDC2}
+	EndGlobalSection
+EndGlobal
