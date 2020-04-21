@@ -9,6 +9,7 @@
         public DbSet<Client> Clients { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<BodyType> BodyTypes { get; set; }
+        public DbSet<Workout> Workouts { get; set; }
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
 

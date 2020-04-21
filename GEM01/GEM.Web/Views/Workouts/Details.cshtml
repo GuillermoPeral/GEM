@@ -1,0 +1,54 @@
+﻿@model GEM.Web.Data.Entities.Workout
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Workout</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Cardio)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cardio)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Arm)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Arm)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Chest)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Chest)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Back)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Back)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Ab)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ab)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Leg)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Leg)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
