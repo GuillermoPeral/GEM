@@ -16,8 +16,8 @@
         [Display(Name = "Apellidos")]
         public string LastName { get; set; }
 
-        [Display(Name = "Fotografia")]
-        public string ImageUrl { get; set; }
+        [Display(Name = "Contacto")]
+        public string Contact { get; set; }
 
         [Display(Name = "Nombre")]
         public string FullName => $"{LastName} {FirstName}";
